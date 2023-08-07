@@ -45,7 +45,7 @@ const Portfolio = () => {
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
                 </a>
               </div>
-              <p>Languages: HTML, CSS, JavaScript
+              <p>Languages: HTML, CSS, JavaScript <br />
                 Description: Created a landing page for a company with a focus
                 of front-end development.
               </p>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
                 </a>
               </div>
-              <p>Languages: HTML, CSS, JavaScript
+              <p>Languages: HTML, CSS, JavaScript <br />
                 Description: Used the PokeAPI to create a front-end interface 
                 that displays the first 151 Pokemon.
               </p>

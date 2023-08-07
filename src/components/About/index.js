@@ -13,7 +13,7 @@ import {
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  
+
   return (
     <>
       <div className="container about-page">
@@ -25,18 +25,20 @@ const About = () => {
             />
           </h1>
           <p>
-           I am a current senior at Virginia Tech majoring in Computer Engineering with a 
-           minor in Computer Science. My current expected graduation date is May 2024.
+            I am a current senior at Virginia Tech majoring in Computer
+            Engineering with a minor in Computer Science. My current expected
+            graduation date is May 2024.
           </p>
           <p>
-            I am a driven and hard working person with exceptional leadership skills. My
-            technical skills are extremely diverse with having knowledge in Full Stack development,
-            DevOps, and Machine Learning.
+            I am a driven and hard working person with exceptional leadership
+            skills. My technical skills are extremely diverse with having
+            knowledge in Full Stack development, DevOps, and Machine Learning.
           </p>
           <p>
-            I currently am looking for a opportunity to grow my current skills with a company
-            that uses the newest technologies and gives me the chance to work alongside like minded
-            indiviuals in an enviroment that will challenge me to become the best me I can be.
+            I currently am looking for a opportunity to grow my current skills
+            with a company that uses the newest technologies and gives me the
+            chance to work alongside like minded indiviuals in an enviroment
+            that will challenge me to become the best me I can be.
           </p>
         </div>
 

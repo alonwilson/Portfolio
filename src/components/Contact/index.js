@@ -36,10 +36,13 @@ const Contact = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-            idx={15}
+              idx={15}
             />
           </h1>
-          <p>I am interested in blah blah blah.</p>
+          <p>
+            If you are impressed with my skillset please don't hesitate to reach
+            out.
+          </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
@@ -88,9 +91,7 @@ const Contact = () => {
           <MapContainer center={[39.0438, -77.4874]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[39.0438, -77.4874]}>
-                <Popup>
-                    Alon is located in this city.
-                </Popup>
+              <Popup>Alon is located in this city.</Popup>
             </Marker>
           </MapContainer>
         </div>

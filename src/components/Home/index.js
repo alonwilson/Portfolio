@@ -33,7 +33,7 @@ const Home = () => {
     'e',
     'c',
     'h',
-    '.'
+    '.',
   ]
 
   return (
@@ -46,10 +46,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={LogoTitle}
-              alt="Computer Science Student"
-            />
+            <img src={LogoTitle} alt="Computer Science Student" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}

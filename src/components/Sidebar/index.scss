@@ -91,7 +91,7 @@
 
     a.portfolio-link {
       &:after {
-        content: 'PORTFOLIO'
+        content: 'PORTFOLIO';
       }
     }
 
@@ -120,8 +120,8 @@
         line-height: 16px;
       }
 
-        &:hover {
-          .anchor-con {
+      &:hover {
+        .anchor-con {
           color: #c20404;
         }
       }
@@ -129,23 +129,24 @@
   }
 }
 
-.hamburger-icon, .close-icon {
+.hamburger-icon,
+.close-icon {
   display: none;
 }
 
-
 @media screen and (max-width: 1200px) {
-  .nav-bar { 
+  .nav-bar {
     background: transparent;
     position: initial;
     height: auto;
     min-height: auto;
 
-     ul, nav {
+    ul,
+    nav {
       display: none;
-     }
+    }
 
-     nav {
+    nav {
       width: 100%;
       top: 0;
       left: 0;
@@ -169,7 +170,7 @@
         opacity: 1;
         position: initial;
         width: auto;
-        margin-left: 10PX;
+        margin-left: 10px;
       }
 
       a svg {
@@ -179,15 +180,15 @@
       &.mobile-show {
         display: block;
       }
-     }
+    }
 
-     .hamburger-icon,
-     .close-icon {
-        color:#c20404;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        display: block;
-     }
+    .hamburger-icon,
+    .close-icon {
+      color: #c20404;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: block;
+    }
   }
 }

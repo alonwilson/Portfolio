@@ -17,10 +17,11 @@ const Portfolio = () => {
     <>
       <div className="container portfolio-page">
         <div class="main-title">
-            <h2>My Portfolio</h2>
+          <h2>My Portfolio</h2>
         </div>
-        <p class = "port-text">
-            Here are some of the projects I have worked on in various programming languages.
+        <p class="port-text">
+          Here are some of the projects I have worked on in various programming
+          languages.
         </p>
         <div className="portfolios">
           <div className="portfolio-item">
@@ -45,7 +46,8 @@ const Portfolio = () => {
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
                 </a>
               </div>
-              <p>Languages: HTML, CSS, JavaScript <br />
+              <p>
+                Languages: HTML, CSS, JavaScript <br />
                 Description: Created a landing page for a company with a focus
                 of front-end development.
               </p>
@@ -73,8 +75,9 @@ const Portfolio = () => {
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
                 </a>
               </div>
-              <p>Languages: HTML, CSS, JavaScript <br />
-                Description: Used the PokeAPI to create a front-end interface 
+              <p>
+                Languages: HTML, CSS, JavaScript <br />
+                Description: Used the PokeAPI to create a front-end interface
                 that displays the first 151 Pokemon.
               </p>
             </div>
@@ -101,10 +104,11 @@ const Portfolio = () => {
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
                 </a>
               </div>
-              <p>Languages: React, CSS <br />
-                Description: Used React to create a personalized portfolio
-                that showcases all my current completed projects. Utilizing
-                the EmailJS and LeafletJS libraries.
+              <p>
+                Languages: React, CSS <br />
+                Description: Used React to create a personalized portfolio that
+                showcases all my current completed projects. Utilizing the
+                EmailJS and LeafletJS libraries.
               </p>
             </div>
           </div>
@@ -283,4 +287,3 @@ const Portfolio = () => {
 }
 
 export default Portfolio
-

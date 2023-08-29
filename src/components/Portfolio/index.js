@@ -5,7 +5,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import Port1 from '../../assets/images/port1.png'
 import Port2 from '../../assets/images/port2.png'
 import Port3 from '../../assets/images/port3.png'
-// import Port4 from '../../assets/images/port4.png'
+import Port4 from '../../assets/images/port4.png'
 // import Port5 from '../../assets/images/port5.png'
 // import Port6 from '../../assets/images/port6.png'
 // import Port7 fromd '../../assets/images/port7.png'
@@ -112,31 +112,31 @@ const Portfolio = () => {
               </p>
             </div>
           </div>
-          {/* <div className="portfolio-item">
+          <div className="portfolio-item">
             <div class="image">
-              <img src={Port1} alt=""></img>
+              <img src={Port4} alt=""></img>
             </div>
             <div className="hover-items">
               <h1>Project Source</h1>
               <div class="icons">
                 <a
                   target="_blank"
-                  href="https://github.com/alonwilson/Welcome_Page"
+                  href="https://github.com/alonwilson/Discord-Bot"
                   class="icon"
                 >
                   <FontAwesomeIcon icon={faGithub} color="#ffffff" />
                 </a>
-                <a
-                  target="_blank"
-                  href="https://alonwilson.github.io/Welcome_Page"
-                  class="icon"
-                >
-                  <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
-                </a>
               </div>
+              <p>
+                Languages: Python <br />
+                Description: Used Python to create a simple Discord bot
+                that returns a random anime recommendation by converting
+                a RapidAPI to JSON to return a random recommendation. Used 
+                the online IDE Replit.
+              </p>
             </div>
           </div>
-          <div className="portfolio-item">
+          {/* div className="portfolio-item">
             <div class="image">
               <img src={Port1} alt=""></img>
             </div>

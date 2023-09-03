@@ -98,7 +98,7 @@ const Portfolio = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://alonwilson.github.io/"
+                  href="https://alonwilson.github.io/Portfolio"
                   class="icon"
                 >
                   <FontAwesomeIcon icon={faGlobe} color="#ffffff" />

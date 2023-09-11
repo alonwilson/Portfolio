@@ -6,7 +6,7 @@ import Port1 from '../../assets/images/port1.png'
 import Port2 from '../../assets/images/port2.png'
 import Port3 from '../../assets/images/port3.png'
 import Port4 from '../../assets/images/port4.png'
-// import Port5 from '../../assets/images/port5.png'
+import Port5 from '../../assets/images/port5.png'
 // import Port6 from '../../assets/images/port6.png'
 // import Port7 fromd '../../assets/images/port7.png'
 // import Port8 from '../../assets/images/port8.png'
@@ -136,31 +136,31 @@ const Portfolio = () => {
               </p>
             </div>
           </div>
-          {/* div className="portfolio-item">
+          <div className="portfolio-item">
             <div class="image">
-              <img src={Port1} alt=""></img>
+              <img src={Port5} alt=""></img>
             </div>
             <div className="hover-items">
               <h1>Project Source</h1>
               <div class="icons">
                 <a
                   target="_blank"
-                  href="https://github.com/alonwilson/Welcome_Page"
+                  href="https://github.com/alonwilson/Psuedostore"
                   class="icon"
                 >
                   <FontAwesomeIcon icon={faGithub} color="#ffffff" />
                 </a>
-                <a
-                  target="_blank"
-                  href="https://alonwilson.github.io/Welcome_Page"
-                  class="icon"
-                >
-                  <FontAwesomeIcon icon={faGlobe} color="#ffffff" />
-                </a>
               </div>
+              <p>
+                Languages: Typescript, Node.js<br />
+                Description: Used Typescript, front-end, to implement Angular materials
+                to create a working full-stack application. Utilized Node.js for the backend
+                to effectively interact with the FakeStoreAPI. Also integrated Stripe to 
+                complete the checkout process of the store.
+              </p>
             </div>
           </div>
-          <div className="portfolio-item">
+          { /*<div className="portfolio-item">
             <div class="image">
               <img src={Port1} alt=""></img>
             </div>

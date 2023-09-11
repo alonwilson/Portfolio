@@ -15,12 +15,20 @@ const Resume = () => {
             <p>
               ●Developed and integrated APIs to elevate app functionalities and
               user experience.
-              <br />● Implemented enhancements to the user interface of a mobile
+              <br />
+              ● Implemented enhancements to the user interface of a mobile
               application using React Native, resulting in an improved and more
               user-friendly front-end experience.
-              <br />● Enhanced back-end proficiency by effectively implementing
+              <br />
+              ● Enhanced back-end proficiency by effectively implementing
               PostgreSQL and Node.js to seamlessly integrate front-end and
               back-end functionalities in mobile application development.
+            </p>
+          </li>
+          <li>
+            <h7>Virginia Tech College Of Engineering</h7>
+            <p>
+
             </p>
           </li>
           <li>

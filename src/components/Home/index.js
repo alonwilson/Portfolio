@@ -3,6 +3,7 @@ import LogoTitle from '../../assets/images/A.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useState } from 'react'
+import PP from "../../assets/images/profile.jpg"
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -60,9 +61,13 @@ const Home = () => {
             />
           </h1>
           <h2>Virginia Tech Student / Computer Science / Full Stack</h2>
+          
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <h3>
+            <img src = {PP} alt =''></img>
+          </h3>
         </div>
       </div>
     </>

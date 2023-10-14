@@ -129,10 +129,10 @@ const Portfolio = () => {
               </div>
               <p>
                 Languages: Python <br />
-                Description: Used Python to create a simple Discord bot
-                that returns a random anime recommendation by converting
-                a RapidAPI to JSON to return a random recommendation. Used 
-                the online IDE Replit.
+                Description: Used Python to create a simple Discord bot that
+                returns a random anime recommendation by converting a RapidAPI
+                to JSON to return a random recommendation. Used the online IDE
+                Replit.
               </p>
             </div>
           </div>
@@ -152,15 +152,17 @@ const Portfolio = () => {
                 </a>
               </div>
               <p>
-                Languages: Typescript, Node.js<br />
-                Description: Used Typescript, front-end, to implement Angular materials
-                to create a working full-stack application. Utilized Node.js for the backend
-                to effectively interact with the FakeStoreAPI. Also integrated Stripe to 
-                complete the checkout process of the store.
+                Languages: Typescript, Node.js
+                <br />
+                Description: Used Typescript, front-end, to implement Angular
+                materials to create a working full-stack application. Utilized
+                Node.js for the backend to effectively interact with the
+                FakeStoreAPI. Also integrated Stripe to complete the checkout
+                process of the store.
               </p>
             </div>
           </div>
-          { /*<div className="portfolio-item">
+          {/* <div className="portfolio-item">
             <div class="image">
               <img src={Port1} alt=""></img>
             </div>
@@ -280,7 +282,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div> */}
-        </div>
+        </div> 
       </div>
     </>
   )

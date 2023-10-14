@@ -76,6 +76,18 @@
       color: #333;
     }
   }
+  h3 {
+    img {
+    position: absolute;
+    top: -12rem;
+    left: 70rem;
+    border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+    animation: fadeIn 1s linear both;
+    animation-delay: 2.4s;
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
